@@ -1,152 +1,152 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 /*!----start home section----*/
 #home {
-  position: relative;
-  right: 0;
-  width: 100%;
-  min-height: 100vh;
-  padding: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #111;
-  transition: 0.5s;
+	position: relative;
+	right: 0;
+	width: 100%;
+	min-height: 100vh;
+	padding: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #111;
+	transition: 0.5s;
 }
 
 #home video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.2;
 }
 
 #home .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  mix-blend-mode: overlay;
-  background-color: #2e2e2e;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	mix-blend-mode: overlay;
+	background-color: #2e2e2e;
 }
 
 #home .introduction {
-  position: relative;
-  z-index: 10;
-  text-align: center;
-  width: 100%;
+	position: relative;
+	z-index: 10;
+	text-align: center;
+	width: 100%;
 }
 
 #home .introduction h2 {
-  font-size: 3rem;
-  font-weight: 800;
-  color: #fff;
-  line-height: 1em;
+	font-size: 3rem;
+	font-weight: 800;
+	color: #fff;
+	line-height: 1em;
 }
 
 #home .introduction h2 span {
-  color: #d9534f;
+	color: #d9534f;
 }
 
 #home .introduction .view-more {
-  display: flex;
-  position: relative;
-  justify-content: center;
-  transition: 0.5s;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	transition: 0.5s;
 }
 
 #home .introduction .view-more img {
-  height: 63px;
-  width: 63px;
+	height: 63px;
+	width: 63px;
 }
 
 #home .introduction .view-more .my-photo {
-  -webkit-touch-callout: none;
-  user-select: none;
+	-webkit-touch-callout: none;
+	user-select: none;
 }
 
 #home .introduction .view-more:hover {
-  transform: scale(0.9) translateY(-15px);
-  filter: invert(1);
+	transform: scale(0.9) translateY(-15px);
+	filter: invert(1);
 }
 
 /*!----end home section----*/
 /*!----start profile section----*/
 #about {
-  background: url(../images/profile-background.png) no-repeat;
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
+	background: url(../images/profile-background.png) no-repeat;
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
 }
 
 #about .profile-overlay {
-  background-color: #fff;
+	background-color: #fff;
 }
 
 #about nav {
-  background-color: #150000;
+	background-color: #150000;
 }
 
 #about nav div {
-  display: inline-block;
-  margin: auto;
-  justify-content: center;
+	display: inline-block;
+	margin: auto;
+	justify-content: center;
 }
 
 #about nav div ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 #about nav div ul li {
-  display: inline-block;
-  padding: 9px;
-  text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 0.3rem;
+	display: inline-block;
+	padding: 9px;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 0.3rem;
 }
 
 #about nav div ul a {
-  margin: auto;
-  justify-content: space-between;
-  color: #fff;
+	margin: auto;
+	justify-content: space-between;
+	color: #fff;
 }
 
 #about nav div ul li.active a {
-  color: #d9534f;
+	color: #d9534f;
 }
 
 /*!----end profile section----*/
 /*!----start contact section----*/
 #contact {
-  background: url(../images/contact.png) no-repeat;
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
+	background: url(../images/contact.png) no-repeat;
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
 }
 
 /*!----end profile section----*/
 /*!----mobile------*/
 @media (max-width: 991px) {
-  .showcase {
-    padding: 40px;
-  }
-  .introduction h2 {
-    font-size: 8px;
-  }
-  .profile #my-photo {
-    height: 45%;
-    width: 45%;
-    padding: 1px;
-    margin: auto;
-  }
+	.showcase {
+		padding: 40px;
+	}
+	.introduction h2 {
+		font-size: 8px;
+	}
+	.profile #my-photo {
+		height: 45%;
+		width: 45%;
+		padding: 1px;
+		margin: auto;
+	}
 }
