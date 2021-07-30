@@ -78,7 +78,7 @@
 /*!----end home section----*/
 /*!----start profile section----*/
 #about {
-  background: url(assets/images/profile-background.png) no-repeat;
+  background: url(../images/profile-background.png) no-repeat;
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -123,7 +123,7 @@
 /*!----end profile section----*/
 /*!----start contact section----*/
 #contact {
-  background: url(assets/images/contact.png) no-repeat;
+  background: url(../images/contact.png) no-repeat;
   position: relative;
   width: 100%;
   min-height: 100vh;
