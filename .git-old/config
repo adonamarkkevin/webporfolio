@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@gitlab.com:tuitt/students/batch122/mark-adona/cs1_dev_portfolio.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

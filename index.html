@@ -5,234 +5,176 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!-- Bootstrap CSS -->
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-			integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-			crossorigin="anonymous"
-		/>
-
-		<!-- aos cdn -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-			integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		/>
-
 		<!-- External CSS -->
 		<link rel="stylesheet" href="assets/styles/style.css" />
-
-		<title>Mark Kevin Adona | Web Portfolio</title>
+		<title>Mark Kevin Adona || web Developer</title>
 	</head>
 	<body>
-		<!-- start showcase section -->
-		<section class="showcase" id="home">
-			<video src="assets/video/programming.mp4" muted loop autoplay></video>
-
-			<div class="overlay"></div>
-			<div class="introduction">
-				<h2>Hi I'm <span>Mark Kevin Adona</span></h2>
-				<h2>I'm a full-stack web developer</h2>
-				<div class="view-more">
-					<a href="#about">
-						<img src="assets/images/view-more.png" alt="image not found" />
-					</a>
-				</div>
-			</div>
-		</section>
-		<!-- end showcase section -->
-		<section class="profile" id="about">
-			<nav class="navbar navbar-dark sticky-top text-right" id="nav">
-				<div class="navContainer">
-						<ul id="menu">
-							<li class="active"><a href="#home">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<!-- <li><a href="#services">Services</a></li> -->
-							<li><a href="#contact">Contact Me</a></li>
+		<!--Start Header Section-->
+		<section id="header">
+			<div class="header container">
+				<div class="nav-bar">
+					<div class="brand">
+						<a href="#hero">
+							<h1><span>K</span>evin <span>A</span>dona</h1>
+						</a>
+					</div>
+					<div class="nav-list">
+						<div class="hamburger">
+							<div class="bar"></div>
+						</div>
+						<ul>
+							<li><a href="#hero" data-after="Home">Home</a></li>
+							<li><a href="#about" data-after="About">About</a></li>
+							<li><a href="#skills" data-after="Skills">Skills</a></li>
+							<li><a href="#contact" data-after="Contact">Contact</a></li>
 						</ul>
-				</div>
-			</nav>
-			<div class="d-flex justify-content-center mt-5">
-				<img id="my-photo" class="rounded-circle border-dark mt-auto w-54" src="assets/images/kevin.jpg" alt="image not found">
-			</div>
-
-			<div class="text-center p-4">
-				Hi I'm Mark Kevin Adona and please just call me Kevin. I'm an on-going
-				Zuitt bootcamper. I was inspired by my friend to be a web developer.
-				That is why I decided to enroll and study in Zuitt. I learned HTML,
-				CSS and currently studying Bootstrap. And this activy is for what we
-				learned in Bootstrap components. I love playing video games, code and
-				listen to metal music.
-			</div>
-
-			<div class="container mt-3">
-				<h2>Tools</h2>
-				<div
-					class="d-flex flex-wrap justify-content-center p-3 border border-dark"
-				>
-					<div>
-						<img
-							src="assets/images/logo-bootstrap.png"
-							width="63"
-							alt="image not found"
-						/>
-					</div>
-					<div>
-						<img
-							src="assets/images/logo-css3.png"
-							width="63"
-							alt="image not found"
-						/>
-					</div>
-					<div>
-						<img
-							src="assets/images/logo-git.png"
-							width="63"
-							alt="image not found"
-						/>
-					</div>
-					<div>
-						<img
-							src="assets/images/logo-expressjs.png"
-							width="63"
-							alt="image not found"
-						/>
-					</div>
-					<div>
-						<img
-							src="assets/images/logo-gitlab-ci-cd.png"
-							width="63"
-							alt="image not found"
-						/>
-					</div>
-					<div>
-						<img
-							src="assets/images/logo-heroku.png"
-							width="63"
-							alt="image not found"
-						/>
-					</div>
-					<div>
-						<img
-							src="assets/images/logo-html5.png"
-							width="63"
-							alt="image not found"
-						/>
-					</div>
-					<div>
-						<img
-							src="assets/images/logo-javascript.png"
-							width="63"
-							alt="image not found"
-						/>
-					</div>
-					<div>
-						<img
-							src="assets/images/logo-mongodb.png"
-							width="63"
-							alt="image not found"
-						/>
-					</div>
-					<div>
-						<img
-							src="assets/images/logo-nodejs.png"
-							width="63"
-							alt="image not found"
-						/>
-					</div>
-					<div>
-						<img
-							src="assets/images/logo-postman.png"
-							width="63"
-							alt="image not found"
-						/>
-					</div>
-					<div>
-						<img
-							src="assets/images/logo-react.png"
-							width="63"
-							alt="image not found"
-						/>
-					</div>
-					<div>
-						<img
-							src="assets/images/logo-rest.png"
-							width="63"
-							alt="image not found"
-						/>
-					</div>
-					<div>
-						<img
-							src="assets/images/logo-sublime-text-3.png"
-							width="63"
-							alt="image not found"
-						/>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- start contact-us section	 -->
-		<section id="contact" class="container-fluid">
-			<div class="d-flex justify-content-center p-4">
-				<h3 class="text-center">Contact</h3>
-				<form>
-					<div class="form-group">
-						<label for="full-name">Full Name</label>
-						<input
-							type="text"
-							class="form-control"
-							placeholder="Full Name..."
-						/>
-					</div>
+		<!-- End Header Section-->
 
-					<div class="form-group">
-						<label for="email">Email Address</label>
-						<input type="email" class="form-control" placeholder="Email..." />
-					</div>
-
-					<div class="form-group">
-						<label for="message">Message</label>
-						<textarea cols="30" rows="5" class="form-control"></textarea>
-					</div>
-
-					<button type="submit" class="btn btn-success btn-block">Send</button>
-				</form>
+		<!--Start Hero Section  -->
+		<section id="hero">
+			<div class="hero container">
+				<div id="introduction">
+					<h1>Hello, I'm <span>Kevin Adona</span></h1>
+					<h1>I'm a full-stack web developer</h1>
+					<a href="#about" type="button" class="cta">Profile</a>
+				</div>
 			</div>
-		</div>
-
 		</section>
-		<!-- jquery bootstrap -->
-		<script
-			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-			crossorigin="anonymous"
-		></script>
-		<!-- popper bootstrap -->
-		<script
-			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-			crossorigin="anonymous"
-		></script>
-		<!-- javascript bootstrap -->
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-			integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-			crossorigin="anonymous"
-		></script>
+		<!-- End Hero Section  -->
 
-		<!-- aos script -->
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-			integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		></script>
-		<script>
-			AOS.init();
-		</script>
+		<!-- About Section -->
+		<section id="about">
+			<div class="about container">
+				<div class="col-left">
+					<div class="about-img">
+						<img src="assets/images/kevin.jpg" alt="image not found" />
+					</div>
+				</div>
+				<div class="col-right">
+					<h1 class="section-title">About <span>me</span></h1>
+					<h2>Full-Stack Developer</h2>
+					<p>
+						I'm Mark <span>Kevin</span> Adona. I'm an aspiring full-stack
+						developer. I was a self taught web developer and now enrolled to
+						Zuitt Bootcamp.
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- End About Section -->
+
+		<!-- start skills section -->
+		<section id="skills">
+			<div class="skills container">
+				<div>
+					<h1 class="section-title">Skill<span>s</span></h1>
+				</div>
+				<div class="col-left">
+					<div class="skills-img">
+						<img src="assets/images/contact-tools.png" alt="image not found" />
+					</div>
+				</div>
+				<div class="col-right">
+					<p>
+						Above are the tools that I am familiar with. If there is something
+						that you want me to do for you or want me to work with you. Please
+						do not hesitate to reach me out.
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- end skills section -->
+
+		<!-- Start Contact Section -->
+		<section id="contact">
+			<div class="contact container">
+				<div>
+					<h1 class="section-title">Contact <span>info</span></h1>
+				</div>
+				<div class="contact-item">
+					<div class="contact-item">
+						<div class="icon">
+							<img src="assets/images/icons8-phone-squared-60.png" />
+						</div>
+						<div class="contact-info">
+							<h1>Phone</h1>
+							<h2>+63 966 614 6155</h2>
+						</div>
+					</div>
+					<div class="contact-item">
+						<div class="icon">
+							<img src="assets/images/icons8-email-128.png" />
+						</div>
+						<div class="contact-info">
+							<h1>Email</h1>
+							<h2>adomamarkkevin@gmail.com</h2>
+						</div>
+					</div>
+				</div>
+
+				<div class="contact-form">
+					<form action="/">
+						<h1>Contact <span>Me</span></h1>
+						<div class="info">
+							<input
+								class="fname"
+								type="text"
+								name="name"
+								placeholder="Full name"
+							/>
+							<input type="email" name="name" placeholder="Email" />
+							<input type="text" name="name" placeholder="Phone number" />
+						</div>
+						<p>Message</p>
+						<div>
+							<textarea rows="4"></textarea>
+						</div>
+						<button type="submit" href="/">Submit</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- End Contact Section -->
+
+		<!-- Start Footer Section -->
+		<section id="footer">
+			<div class="footer container">
+				<div class="brand">
+					<h1><span>K</span>evin <span>A</span>dona</h1>
+				</div>
+				<h2>Your Web Developer</h2>
+				<div class="social-icon">
+					<div class="social-item">
+						<a
+							href="https://www.linkedin.com/in/kevin-adona-65744920a/"
+							target="blank"
+							><img src="assets/images/icons8-linkedin-circled.svg"
+						/></a>
+					</div>
+					<div class="social-item">
+						<a href="https://github.com/adonamarkkevin" target="blank"
+							><img src="assets/images/icons8-github.svg"
+						/></a>
+					</div>
+					<div class="social-item">
+						<a
+							href="https://www.upwork.com/freelancers/~01edd4571a90712d37"
+							target="blank"
+							><img src="assets/images/icons8-upwork.svg"
+						/></a>
+					</div>
+				</div>
+				<p>Copyright © 2021 Adona. All rights reserved</p>
+			</div>
+		</section>
+		<!-- End Footer Section -->
+		<!-- start js script -->
 		<script src="assets/js/main.js"></script>
+		<!-- end js script -->
 	</body>
 </html>
